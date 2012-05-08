@@ -13,6 +13,7 @@ you can easily install the dependencies using the following commands:
     brew install gnupg
     brew install v8
     brew install snappy
+    brew install erlang
 
 Optionally, you can install repo from homebrew as well:
 
