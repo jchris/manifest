@@ -11,6 +11,7 @@ you can easily install the dependencies using the following commands:
     brew install bazaar --system
     brew install libevent
     brew install gnupg
+    brew install v8
     brew install snappy
 
 Optionally, you can install repo from homebrew as well:
