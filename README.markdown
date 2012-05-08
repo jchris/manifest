@@ -8,9 +8,9 @@ Using [homebrew][homebrew] and the ruby that ships with a recent OS X,
 you can easily install the dependencies using the following commands:
 
     sudo easy_install -U pyrex
-    brew install bzr --system
+    brew install bazaar --system
     brew install libevent
-    brew install gpg
+    brew install gnupg
 
 Optionally, you can install repo from homebrew as well:
 
