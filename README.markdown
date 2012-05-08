@@ -53,6 +53,9 @@ Get the latest version from [the google project page](http://code.google.com/p/g
 
 ## Clone the Manifest
 
+For `<branch_name>` below, you probably want to use `branch-2.0.xml` unless you are working on a 
+maintenance or experimental branch.
+
     $ mkdir couchbase
     $ cd couchbase
     $ repo init -u git://github.com/membase/manifest.git -m <branch_name>
