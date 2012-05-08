@@ -19,6 +19,13 @@ Optionally, you can install repo from homebrew as well:
 
     brew install repo
 
+If you have a recent version of Xcode (4.3+), it no longer lives in the `/Developer` directory. This
+will cause one of the subcomponents (Sigar) to fail to build. For the time being the workaround is to create
+a symbolic link from the old (expected) header files directory, to the new place Xcode likes to keep
+it's headers. Do it like this:
+
+    sudo ln -s  /Applications/Xcode.app/Contents/Developer /Developer
+
 ### Debian/Ubuntu:
 
 The following works for a clean Debian stable (squeeze) installation (under root):
