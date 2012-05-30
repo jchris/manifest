@@ -61,6 +61,13 @@ find the right path.
 
 Get the latest version from [the google project page](http://code.google.com/p/git-repo/downloads/list).
 
+You may have to edit the repo source code with this line if Google Code is broken as it often is:
+
+    REPO_URL='git://github.com/optedoblivion/repo.git'
+
+And then run repo with the `--no-repo-verify` option to skip the code signing check. This is dirty but it's
+better than waitin for Google Code to come back online.
+
 ## Clone the Manifest
 
 For `<branch_name>` below, you probably want to use `branch-2.0.xml` unless you are working on a 
